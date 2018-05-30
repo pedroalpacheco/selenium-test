@@ -16,11 +16,16 @@ class Google:
         self.driver.find_element_by_id(self.search_bar).send_keys(word)
         self.driver.find_element_by_name(self.btn_search).click()
 
+    def lucky(self, word='None'):
+        self.driver.find_element_by_id(self.search_bar).send_keys(word)
+        self.driver.find_element_by_name(self.btn_lucky).click()
+
 
 ff = webdriver.Firefox()
 g = Google(ff)
 g.navigate()
-g.search('Pedro Alexandr Pacheco')
+#g.search('Pedro Alexandr Pacheco')
+g.lucky('Pedro Alexandr Pacheco')
 
 #g.navigate()
 
