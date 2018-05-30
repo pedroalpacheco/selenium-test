@@ -1,6 +1,6 @@
 Para configurar os drivers dos vavegadores:
 
->>Chrome = Baixar https://sites.google.com/a/chromium.org/chromedriver/home e descompactar no .venv/bin e depois chamar
+>>Chrome = Baixar  e descompactar no .venv/bin e depois chamar
 no script conforme exemplo em "inicia-browser.py".
 
 >>Firefox = Baixar https://github.com/mozilla/geckodriver/releases a última versão e adicionar em .venv/bin,
